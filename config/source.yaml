@@ -2,6 +2,14 @@
 - type: webfuzzsub
   options:
     url: https://raw.githubusercontent.com/du5/free/master/sub.list
+# 20241027
+- type: webfuzz
+  options:
+    url: https://www.yudou66.com/search/label/free
+- type: webfuzz
+  options:
+    url: https://kkzui.com/jd
+    
 # 20230708
 - type: webfuzz
   options:
