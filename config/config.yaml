@@ -1,5 +1,5 @@
 # your domain
-domain: example.com   # or example.com:9443 for reserve proxy server
+domain: ${DOMAIN} # or example.com:9443 for reserve proxy server . Directly modify or use environment variables
 port:                 # default 12580
 
 # source list file
