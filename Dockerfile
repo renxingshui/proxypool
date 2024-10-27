@@ -14,5 +14,6 @@ RUN apk add --no-cache ca-certificates tzdata
 WORKDIR /proxypool-src
 COPY ./assets /proxypool-src/assets
 COPY ./config /proxypool-src/config
+COPY ./config/config.yaml /proxypool-src/config.yaml
 COPY --from=builder /proxypool /proxypool-src/
 ENTRYPOINT ["/proxypool-src/proxypool", "-d"]
